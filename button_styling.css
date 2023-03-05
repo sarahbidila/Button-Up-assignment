@@ -1,0 +1,43 @@
+#container {
+    width: 200px;
+    height: 200px;
+    
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+}
+#btn_search, #btn_plus, #btn_account {
+    margin: 10px;
+}
+#btn_search {
+    background-color: rgb(240, 237, 237);
+    width: 150px;
+    height: 30px;
+    color: rgb(43, 166, 204);
+    font-weight:bolder ;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    border: 2px solid rgb(43, 166, 204);
+    border-radius: 15px;
+   
+}
+
+#btn_plus {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(9, 189, 189);
+    border: 0cm;
+    color: white;
+    font-size:x-large;
+}
+
+#btn_account {
+    width: 180px;
+    height: 35px;
+    font-family: "Helvetica Neue", "Arial", serif;
+    border: 2px solid black;
+    background-color: rgb(67, 103, 223);
+    color: white;
+    font-size: 15px ;
+    box-shadow: 3px 3px rgb(0, 0, 0);
+}
